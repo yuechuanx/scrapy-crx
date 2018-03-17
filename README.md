@@ -7,7 +7,9 @@
 
 ## API接口
 
-API接口的格式如下：
+API接口的格式
+
+以下是 https://openi.nlm.nih.gov/retrieve.php?q=&coll=cxr&m=1&n=5 返回的接口
 
 ~~~json
 {
@@ -110,3 +112,10 @@ API接口的格式如下：
 
 具体的实现请参照代码。
 
+## Tips
+
+- 从API内的信息可以知道里面总共有7740个标签，通过更改
+
+  https://openi.nlm.nih.gov/retrieve.php?q=&coll=cxr&m=?&n=? 
+
+  的m，n值，可以获得n-m个被包含在list里的 json 格式的标签段，建议m,n间隔为30，因为可以被7740整除....

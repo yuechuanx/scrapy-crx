@@ -114,7 +114,7 @@ API接口的格式
 
 ## 爬取结果
 
-![](.\label-pic.png)
+![](https://github.com/yuechuanx/scrapy-crx/blob/master/label-pic.png)
 
 ## Tips
 
